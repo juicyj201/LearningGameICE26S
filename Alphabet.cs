@@ -14,13 +14,13 @@ namespace LearningGame1
 {
     public partial class Alphabet : Form
     {
-        private static string pointSave = @"C:\Users\Charles\Downloads\LearningGameICE26S\SavedScoreAlphabet.txt";
+        private static string pointSave = @"C:\Users\joshu\source\repos\LearningGameICE26S - charlesBranch\SavedScoreAlphabet.txt";
         private string[] value = File.ReadAllLines(pointSave);
 
-        private static string pointSaveM = @"C:\Users\Charles\Downloads\LearningGameICE26S\MistakesAlphabet.txt";
+        private static string pointSaveM = @"C:\Users\joshu\source\repos\LearningGameICE26S - charlesBranch\MistakesAlphabet.txt";
         private string[] valueM = File.ReadAllLines(pointSaveM);
 
-        private static string pointMistakes = @"C:\Users\Charles\Downloads\LearningGameICE26S\MistakesAlphabet.txt";
+        private static string pointMistakes = @"C:\Users\joshu\source\repos\LearningGameICE26S - charlesBranch\MistakesAlphabet.txt";
         private string[] valueMistake = File.ReadAllLines(pointMistakes);
 
         private int a = 0;
@@ -131,7 +131,6 @@ namespace LearningGame1
         //--------------------------------------------------------------Level methods where the position of the textboxes and text values are set
         private void LevelOne()
         {
-            submitBtn.Focus();
             a = 0;
             String res = a.ToString();
             valueM[0] = res;
@@ -171,7 +170,7 @@ namespace LearningGame1
 
 
             //getting the image from it location and adding it to the picturebox
-            pBox1.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\images\a.jpg";
+            pBox1.ImageLocation = @"C:\Users\joshu\source\repos\LearningGameICE26S - charlesBranch\images\a.jpg";
             pBox1.SizeMode = PictureBoxSizeMode.CenterImage;
         }
         private void LevelTwo()
@@ -215,7 +214,7 @@ namespace LearningGame1
 
 
             //getting the image from it location and adding it to the picturebox
-            pBox1.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\images\b.jpg";
+            pBox1.ImageLocation = @"C:\Users\joshu\source\repos\LearningGameICE26S - charlesBranch\images\b.jpg";
             pBox1.SizeMode = PictureBoxSizeMode.CenterImage;
         }
         private void LevelThree()
@@ -265,7 +264,7 @@ namespace LearningGame1
             letter8.Visible = false;
 
             //getting the image from it location and adding it to the picturebox
-            pBox1.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\images\c.jpg";
+            pBox1.ImageLocation = @"C:\Users\joshu\source\repos\LearningGameICE26S - charlesBranch\images\c.jpg";
             pBox1.SizeMode = PictureBoxSizeMode.CenterImage;
 
 
@@ -313,7 +312,7 @@ namespace LearningGame1
 
 
             //getting the image from it location and adding it to the picturebox
-            pBox1.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\images\D.jpg";
+            pBox1.ImageLocation = @"C:\Users\joshu\source\repos\LearningGameICE26S - charlesBranch\images\D.jpg";
             pBox1.SizeMode = PictureBoxSizeMode.CenterImage;
         }
         private void LevelFive()
@@ -363,7 +362,7 @@ namespace LearningGame1
             letter8.Visible = false;
 
             //getting the image from it location and adding it to the picturebox
-            pBox1.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\images\e.jpg";
+            pBox1.ImageLocation = @"C:\Users\joshu\source\repos\LearningGameICE26S - charlesBranch\images\e.jpg";
             pBox1.SizeMode = PictureBoxSizeMode.CenterImage;
 
 
@@ -418,7 +417,7 @@ namespace LearningGame1
             letter8.Visible = false;
 
             //getting the image from it location and adding it to the picturebox
-            pBox1.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\images\f.jpg";
+            pBox1.ImageLocation = @"C:\Users\joshu\source\repos\LearningGameICE26S - charlesBranch\images\f.jpg";
             pBox1.SizeMode = PictureBoxSizeMode.CenterImage;
 
 
@@ -472,7 +471,7 @@ namespace LearningGame1
             letter8.Visible = false;
 
             //getting the image from it location and adding it to the picturebox
-            pBox1.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\images\g.jpg";
+            pBox1.ImageLocation = @"C:\Users\joshu\source\repos\LearningGameICE26S - charlesBranch\images\g.jpg";
             pBox1.SizeMode = PictureBoxSizeMode.CenterImage;
 
 
@@ -526,7 +525,7 @@ namespace LearningGame1
             letter8.Visible = false;
 
             //getting the image from it location and adding it to the picturebox
-            pBox1.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\images\h.jpg";
+            pBox1.ImageLocation = @"C:\Users\joshu\source\repos\LearningGameICE26S - charlesBranch\images\h.jpg";
             pBox1.SizeMode = PictureBoxSizeMode.CenterImage;
 
 
@@ -574,7 +573,7 @@ namespace LearningGame1
 
 
             //getting the image from it location and adding it to the picturebox
-            pBox1.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\images\i.jpg";
+            pBox1.ImageLocation = @"C:\Users\joshu\source\repos\LearningGameICE26S - charlesBranch\images\i.jpg";
             pBox1.SizeMode = PictureBoxSizeMode.CenterImage;
         }
         private void LevelTen()
@@ -618,7 +617,7 @@ namespace LearningGame1
 
 
             //getting the image from it location and adding it to the picturebox
-            pBox1.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\images\j.jpg";
+            pBox1.ImageLocation = @"C:\Users\joshu\source\repos\LearningGameICE26S - charlesBranch\images\j.jpg";
             pBox1.SizeMode = PictureBoxSizeMode.CenterImage;
         }
         private void LevelEleven()
@@ -662,7 +661,7 @@ namespace LearningGame1
 
 
             //getting the image from it location and adding it to the picturebox
-            pBox1.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\images\k.jpg";
+            pBox1.ImageLocation = @"C:\Users\joshu\source\repos\LearningGameICE26S - charlesBranch\images\k.jpg";
             pBox1.SizeMode = PictureBoxSizeMode.CenterImage;
         }
         private void LevelTwelve()
@@ -712,7 +711,7 @@ namespace LearningGame1
             letter8.Visible = false;
 
             //getting the image from it location and adding it to the picturebox
-            pBox1.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\images\l.jpg";
+            pBox1.ImageLocation = @"C:\Users\joshu\source\repos\LearningGameICE26S - charlesBranch\images\l.jpg";
             pBox1.SizeMode = PictureBoxSizeMode.CenterImage;
 
 
@@ -765,7 +764,7 @@ namespace LearningGame1
             letter8.Visible = false;
 
             //getting the image from it location and adding it to the picturebox
-            pBox1.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\images\M.jpg";
+            pBox1.ImageLocation = @"C:\Users\joshu\source\repos\LearningGameICE26S - charlesBranch\images\M.jpg";
             pBox1.SizeMode = PictureBoxSizeMode.CenterImage;
 
 
@@ -813,7 +812,7 @@ namespace LearningGame1
 
 
             //getting the image from it location and adding it to the picturebox
-            pBox1.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\images\n.jpg";
+            pBox1.ImageLocation = @"C:\Users\joshu\source\repos\LearningGameICE26S - charlesBranch\images\n.jpg";
             pBox1.SizeMode = PictureBoxSizeMode.CenterImage;
         }
         private void LevelFifteen()
@@ -863,7 +862,7 @@ namespace LearningGame1
             letter8.Visible = false;
 
             //getting the image from it location and adding it to the picturebox
-            pBox1.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\images\o.jpg";
+            pBox1.ImageLocation = @"C:\Users\joshu\source\repos\LearningGameICE26S - charlesBranch\images\o.jpg";
             pBox1.SizeMode = PictureBoxSizeMode.CenterImage;
 
 
@@ -911,7 +910,7 @@ namespace LearningGame1
 
 
             //getting the image from it location and adding it to the picturebox
-            pBox1.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\images\p.jpg";
+            pBox1.ImageLocation = @"C:\Users\joshu\source\repos\LearningGameICE26S - charlesBranch\images\p.jpg";
             pBox1.SizeMode = PictureBoxSizeMode.CenterImage;
         }
         private void LevelSeventeen()
@@ -962,7 +961,7 @@ namespace LearningGame1
             letter8.Visible = false;
 
             //getting the image from it location and adding it to the picturebox
-            pBox1.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\images\q.jpg";
+            pBox1.ImageLocation = @"C:\Users\joshu\source\repos\LearningGameICE26S - charlesBranch\images\q.jpg";
             pBox1.SizeMode = PictureBoxSizeMode.CenterImage;
 
 
@@ -1016,7 +1015,7 @@ namespace LearningGame1
             letter8.Visible = false;
 
             //getting the image from it location and adding it to the picturebox
-            pBox1.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\images\r.jpg";
+            pBox1.ImageLocation = @"C:\Users\joshu\source\repos\LearningGameICE26S - charlesBranch\images\r.jpg";
             pBox1.SizeMode = PictureBoxSizeMode.CenterImage;
 
 
@@ -1070,7 +1069,7 @@ namespace LearningGame1
             letter8.Visible = false;
 
             //getting the image from it location and adding it to the picturebox
-            pBox1.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\images\S.jpg";
+            pBox1.ImageLocation = @"C:\Users\joshu\source\repos\LearningGameICE26S - charlesBranch\images\S.jpg";
             pBox1.SizeMode = PictureBoxSizeMode.CenterImage;
 
 
@@ -1124,7 +1123,7 @@ namespace LearningGame1
             letter8.Visible = false;
 
             //getting the image from it location and adding it to the picturebox
-            pBox1.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\images\t.jpg";
+            pBox1.ImageLocation = @"C:\Users\joshu\source\repos\LearningGameICE26S - charlesBranch\images\t.jpg";
             pBox1.SizeMode = PictureBoxSizeMode.CenterImage;
 
 
@@ -1172,7 +1171,7 @@ namespace LearningGame1
 
 
             //getting the image from it location and adding it to the picturebox
-            pBox1.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\images\u.jpg";
+            pBox1.ImageLocation = @"C:\Users\joshu\source\repos\LearningGameICE26S - charlesBranch\images\u.jpg";
             pBox1.SizeMode = PictureBoxSizeMode.CenterImage;
         }
         private void LevelTwentytwo()
@@ -1222,7 +1221,7 @@ namespace LearningGame1
             letter8.Visible = false;
 
             //getting the image from it location and adding it to the picturebox
-            pBox1.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\images\V.jpg";
+            pBox1.ImageLocation = @"C:\Users\joshu\source\repos\LearningGameICE26S - charlesBranch\images\V.jpg";
             pBox1.SizeMode = PictureBoxSizeMode.CenterImage;
 
 
@@ -1276,7 +1275,7 @@ namespace LearningGame1
             letter8.Visible = false;
 
             //getting the image from it location and adding it to the picturebox
-            pBox1.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\images\W.jpg";
+            pBox1.ImageLocation = @"C:\Users\joshu\source\repos\LearningGameICE26S - charlesBranch\images\W.jpg";
             pBox1.SizeMode = PictureBoxSizeMode.CenterImage;
 
 
@@ -1338,7 +1337,7 @@ namespace LearningGame1
             letter8.ForeColor = Color.White;
 
             //getting the image from it location and adding it to the picturebox
-            pBox1.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\images\x.jpg";
+            pBox1.ImageLocation = @"C:\Users\joshu\source\repos\LearningGameICE26S - charlesBranch\images\x.jpg";
             pBox1.SizeMode = PictureBoxSizeMode.CenterImage;
 
 
@@ -1386,7 +1385,7 @@ namespace LearningGame1
 
 
             //getting the image from it location and adding it to the picturebox
-            pBox1.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\images\y.jpg";
+            pBox1.ImageLocation = @"C:\Users\joshu\source\repos\LearningGameICE26S - charlesBranch\images\y.jpg";
             pBox1.SizeMode = PictureBoxSizeMode.CenterImage;
         }
         private void LevelTwentysix()
@@ -1438,7 +1437,7 @@ namespace LearningGame1
             letter8.Visible = false;
 
             //getting the image from it location and adding it to the picturebox
-            pBox1.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\images\z.jpg";
+            pBox1.ImageLocation = @"C:\Users\joshu\source\repos\LearningGameICE26S - charlesBranch\images\z.jpg";
             pBox1.SizeMode = PictureBoxSizeMode.CenterImage;
 
 
@@ -2576,9 +2575,12 @@ namespace LearningGame1
             resetToNewQuestion();
         }
 
-       
 
-        private void submitBtn_Click(object sender, EventArgs e)
+    
+
+ 
+
+        private void submitBtn_Click_1(object sender, EventArgs e)
         {
             //converting the array value to an integer
             a = int.Parse(value[0]);

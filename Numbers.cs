@@ -978,7 +978,8 @@ namespace LearningGame1
             resetToNewQuestion();
         }
 
-        private void submitBtn_Click(object sender, EventArgs e)
+
+        private void submitBtn_Click_1(object sender, EventArgs e)
         {
             //converting the array value to an integer
             a = int.Parse(value[0]);
@@ -1026,7 +1027,7 @@ namespace LearningGame1
             }
         }
 
-        private void playBtn_Click_1(object sender, EventArgs e)
+        private void playBtn_Click(object sender, EventArgs e)
         {
             //converting the array value to an integer
             a = int.Parse(value[0]);
